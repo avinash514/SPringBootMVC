@@ -151,7 +151,7 @@
              <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
+                <version>3.5.0</version>
                 <configuration>
                     <compilerArguments>
                         <Xlint/>
@@ -161,7 +161,7 @@
                     <target>${java.version}</target>
                     <showWarnings>true</showWarnings>
                          <fork>true</fork>
-		<executable>C:\Program Files\Java\jdk1.7.0_79\bin\javac</executable>
+		<executable>C:\Users\Avinash\CJE\tools\hudson.model.JDK\JDK_1.7\bin\javac</executable>
                 </configuration>
             </plugin>
              <!-- Spring Boot Maven -->
